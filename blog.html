@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css"/>
+    <script src="https://kit.fontawesome.com/aab1045ec6.js" crossorigin="anonymous"></script>
+    <title>Blog</title>
+</head>
+<body>
+    <div class="blog-menu">
+        <div class="tblog bm ">Blog</div>
+        <div class="bm"><a href="articles.html">Articles</a> </div>
+        <div class="bm"><a href="index.html">About</a></div>
+        <div class="bm "><a href="signup.html" id="login">Sign Up</a></div>
+        <div class="bm "><a onclick="logout()" id="logout" >Sign out</a></div>
+    </div>
+    <div class="paper">
+        <div class="text" id="conva">
+           <div class="convas" id="convas"></div>
+            
+            <div class="commenting-box" id="comment-div">
+                <form action="post" class="center" id ="commentForm">
+                    <textarea name="comment" id="comment-box"  class="comment-area padding" placeholder="Type your comment here...">
+                    </textarea>
+                    <div class="center">
+                        <input type="submit" value="Send" class=" btn submit bg padding">
+                    </div>
+                </form>
+                <div id="comm">
+                    <h3>Comments</h3>
+                </div>
+            </div>
+
+        </div>
+       
+    </div>
+    <div class="footer colorWhite">
+        <div class="l">
+            <span><i class="fa fa-message padding"></i>tuyisengesamy6@gmail.com </span>
+            <span> 
+                <i class="fa fa-facebook padding"></i>
+                <i class="fa fa-linkedin padding"></i>
+            </span>
+            
+        </div>
+        <div class="l">
+            <span> 
+                <i class="fa fa-phone padding"></i>Call me: +250780547458
+            </span>
+            <span> 
+                <i class="fa fa-location padding"></i>Location: RUBAVU-RWANDA
+            </span>
+        </div>
+        
+    </div>
+</body>
+<script src="js-files/article.js">
+</script>
+</html>
